@@ -1,0 +1,58 @@
+body{
+
+}
+.tit{
+  position: absolute;
+  bottom: 35%;
+  left: 20%;
+}
+.tit2{
+  position: absolute;
+  bottom: 27%;
+  left: 20%;
+
+}
+.carousel-item{
+  height: 600px;
+}
+.sec2{
+  padding-top: 5%;
+  
+}
+.carousel-inner{
+  background-image: url("https://i.postimg.cc/pTNNT6ZL/Untitled-design-6.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.wrapper {
+  height: 100vh;
+  /*This part is important for centering*/
+  display: grid;
+  place-items: center;
+}
+
+.typing-demo {
+  width: 11ch;
+  animation: typing 2s steps(13), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: 'Pacifico', cursive;
+  font-size: 3rem;
+  color:#E32A48;
+}
+.sec{
+  background-color:#4B4E48;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
